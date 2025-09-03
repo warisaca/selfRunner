@@ -28,7 +28,7 @@ spec:
     app: eshop-web
   ports:
     - protocol: TCP
-      port: 8081
+      port: 8082
       targetPort: 3000 # exposed port
   type: LoadBalancer
 
